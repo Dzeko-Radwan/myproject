@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  color: #4a4a4a;
+  font-family: "Museo Sans Rounded 500", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+body,
+html {
+  min-height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.side-bar {
+  width: 30%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #3295db 30%, #82c0f1);
+  padding: 30px;
+  position: relative;
+}
+.side-bar header {
+  width: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 5px;
+}
+.side-bar header .logo {
+  width: 220px;
+  height: 42px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+}
+.side-bar header .logo .logo-img {
+  width: 80%;
+  height: 45px;
+}
+.side-bar header .home-btn {
+  width: 19.87px;
+  height: 21.13px;
+  position: absolute;
+  right: -50px;
+  top: 12px;
+}
+.mid-section {
+  width: 82%;
+  position: absolute;
+  top: 220px;
+}
+.mid-section h3 {
+  font-size: 22px;
+  font-weight: inherit;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.mid-section p {
+  color: #fff;
+}
+hr {
+  width: 82%;
+  position: absolute;
+  top: 396px;
+}
+.foot-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+  position: absolute;
+  top: 434px;
+}
+.foot-section p {
+  color: #fff;
+}
+.foot-section button {
+  width: 115px;
+  height: 36px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: inherit;
+  color: #fff;
+  font-weight: bold;
+  line-height: inherit;
+}
+.foot-section button:hover {
+  cursor: pointer;
+  color: #8ae4fd;
+  border-color: #8ae4fd;
+  transition: 0.5s;
+}
+.main {
+  width: 70%;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+div {
+  width: 173.75px;
+  height: 42px;
+  position: relative;
+  left: 145px;
+  top: 230px;
+}
+.btn {
+  width: 153.75px;
+  height: 42px;
+  position: relative;
+  /* background-color: #4284f4; */
+  background-image: linear-gradient(#4284f4, #34abcd);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.lg_img {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 36px;
+  height: 36px;
+  border-radius: 2px;
+}
+.btn:hover {
+  cursor: pointer;
+  /* background-color: #fff; */
+  border: 1px solid #4284f4;
+  transition: 0.5s;
+}
+span {
+  display: inline-block;
+  font-family: "Museo Sans Rounded 500", sans-serif;
+  font-size: 14px;
+  padding: 0px 50px 0px 50px;
+  border-color: #4284f4;
+  font-weight: 500;
+  color: #fff;
+}
